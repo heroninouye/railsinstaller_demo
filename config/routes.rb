@@ -1,4 +1,10 @@
 RailsinstallerDemo::Application.routes.draw do
+  get "heron/index"
+
+  get "heron/view"
+
+  resources :users
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
